@@ -20,3 +20,6 @@ setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 900);
 
+setTimeout(() => {
+  process.stdout.write('\n');
+}, 1000);
